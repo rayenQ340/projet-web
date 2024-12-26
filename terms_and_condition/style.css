@@ -1,0 +1,86 @@
+
+
+*, *:after, *:before {
+	box-sizing: border-box;
+	width: 100%;
+	max-width: 700px;
+	border-radius: 10px;
+	box-shadow: 0 10px 20px 0 rgba(#999, .25);
+	padding: .75rem;
+	position: relative;
+	padding: 2rem 1rem 0;
+	
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    line-height: 1.5;
+    background: linear-gradient(90deg, rgb(238, 238, 243) 40%, rgb(203, 203, 243));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 0 2rem;
+    margin: 0 26rem;
+}
+
+
+.card {
+	margin: 9rem auto;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	max-width: 700px;
+	background-color: #FFF;
+	border-radius: 10px;
+	box-shadow: 0 10px 20px 0 rgba(#999, .25);
+	padding: .100rem;
+}
+.card-image {
+	padding-bottom: 22%;
+	background-image: url('download.jpg');
+	background-repeat: no-repeat;
+	background-size: 30%;
+	position: absolute;
+    left: 32%;
+	top: 7%;
+}
+
+ol{
+	padding-left:  70px;
+    top: 40px;
+}
+
+.action{
+	margin-top: -30px;
+	padding-bottom: 10px
+}
+
+.action-button {
+	font: inherit;
+	font-size: 1.25rem;
+	padding: 1em;
+	width: 100%;
+	font-weight: 500;
+	background-color: rgb(26, 17, 125);
+	border-radius: 6px;
+	color: #FFF;
+	border: 0;
+}
+
+.action-button:focus {
+	outline: 0;
+}
+.container {
+	position: relative;
+  }
+  
+  .box {
+	position: absolute;
+	top: 5%;
+	left: 25%;
+	transform: translate(-25%, -25%);
+	display: block;
+  }
+  button:hover {
+	background-color: rgb(17, 11, 83);
+  }
+  

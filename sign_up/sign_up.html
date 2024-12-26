@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Registration Form</title>
+	<link rel="stylesheet" href="style.css">
+  </head>
+
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="card-image">
+        <h2 class="card-heading">
+          Get started
+          <small>welcome to Marchan prime!</small>
+        </h2>
+      </div>
+      <form class="card-form">
+        <div class="input">
+          <input type="text" class="input-field" name="fullName" required />
+          <label class="input-label">Full name</label>
+        </div>
+        <div class="input">
+          <input type="text" class="input-field" name="cin" required />
+          <label class="input-label">CIN</label>
+        </div>
+        <div class="input">
+          <input type="email" class="input-field" name="email" required />
+          <label class="input-label">Email</label>
+        </div>
+        <div class="input">
+          <input type="password" class="input-field" name="password" required />
+          <label class="input-label">Password</label>
+        </div>
+        <div class="input">
+          <input type="password" class="input-field" name="Cpassword" required />
+          <label class="input-label">Confirm Password</label>
+        </div>
+      </form>
+      <div class="action">
+        <button id="submit-btn" class="action-button" onclick="window.location.href='../main/index.html'">Sign Up</button>
+      </div>
+      <div class="card-info">
+        <p>
+          By signing up you are agreeing to our
+          <a href="../terms_and_condition/index.html">Terms and Conditions</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
